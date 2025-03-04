@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/*structure*/
+
+body{
+    font-family: "Open Sans";
+}
+
 header{
     height: 100px;
     background-color: yellow;
@@ -17,19 +23,9 @@ main{
     display: flex;
 }
 
-p{
-    color: black;
-}
-
 footer{
     height: 100px;
     background-color: green;
-}
-
-#side-bar{
-    height: 100%;
-    width: 200px;
-    background-color: blue;
 }
 
 #content-music{
@@ -37,4 +33,33 @@ footer{
     width: calc(100% - 200px);
     overflow-y: auto;
     background-color: violet;
+}
+
+#side-options img, #sidebar-footer img{
+    width: 20%;
+}
+
+/*sidebar-general*/
+
+#side-bar{
+    height: 100%;
+    width: 200px;
+    background-color: blue;
+}
+
+/*playlist*/
+
+.create-playlist div{
+    display: inline-block;
+}
+
+.btn-playlist, .user-photo{
+    border: 2px solid orange;
+    background-color: grey;
+}
+
+/*utlity*/
+
+ul li{
+    list-style-type: none;
 }
