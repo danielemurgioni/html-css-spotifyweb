@@ -83,6 +83,11 @@ footer{
     justify-content: space-between;
 }
 
+.personal-mix{
+    display: flex;
+    column-gap: 2%;
+}
+
 .card{
     width: calc(100vw / 8);
     text-align: center;
