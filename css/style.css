@@ -3,3 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: red;
+    display: flex;
+}
+
+p{
+    color: black;
+}
+
+footer{
+    height: 100px;
+    background-color: green;
+}
+
+#side-bar{
+    height: 100%;
+    width: 200px;
+    background-color: blue;
+}
+
+#content-music{
+    height: 100%;
+    width: calc(100% - 200px);
+    overflow-y: auto;
+    background-color: violet;
+}
