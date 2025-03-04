@@ -108,6 +108,48 @@ footer{
     background-color: grey;
 }
 
+/*footer*/
+
+footer .col25 img{
+    width: 50px;
+}
+
+footer .col25 .current-song, footer .col25 .favourite{
+    display: inline-block;
+}
+
+footer.played-song{
+    display: flex;
+}
+
+.control-buttons{
+    text-align: center;
+}
+
+.timestamp {
+    display: flex;
+    align-items: center;
+}
+
+.timestamp .tot-song-lenght, .max-volume{
+    background-color: black;
+    width: 80%;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.current-song-time, .current-volume{
+    background-color: white;
+    width: 30%;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.sound{
+    width: 50%;
+    display: inline-block;
+}
+
 /*utlity*/
 
 ul li{
@@ -116,4 +158,16 @@ ul li{
 
 .img-fluid{
     width: 100%;
+}
+
+.col25{
+    width: 25%;
+}
+
+.col50{
+    width: 50%;
+}
+
+.text-right{
+    text-align: right   ;
 }
