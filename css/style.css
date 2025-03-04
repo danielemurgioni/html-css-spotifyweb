@@ -61,6 +61,8 @@ footer{
 
 /*content-music*/
 
+/*nav*/
+
 .nav{
     display: flex;
     justify-content: center;
@@ -68,6 +70,22 @@ footer{
 
 .nav li{
     margin: 0 20px;
+}
+
+/*music*/
+
+.music{
+    padding: 20px;
+}
+
+.recent-music{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: calc(100vw / 8);
+    text-align: center;
 }
 
 /*playlist*/
@@ -85,4 +103,8 @@ footer{
 
 ul li{
     list-style-type: none;
+}
+
+.img-fluid{
+    width: 100%;
 }
