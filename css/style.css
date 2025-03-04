@@ -83,7 +83,7 @@ footer{
     justify-content: space-between;
 }
 
-.personal-mix{
+.personal-mix, .pop-artists{
     display: flex;
     column-gap: 2%;
 }
@@ -91,6 +91,10 @@ footer{
 .card{
     width: calc(100vw / 8);
     text-align: center;
+}
+
+.pop-artists img{
+    border-radius: 50%;
 }
 
 /*playlist*/
