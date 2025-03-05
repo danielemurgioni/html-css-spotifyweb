@@ -36,10 +36,6 @@ footer{
     background-color: violet;
 }
 
-#side-options img, #sidebar-footer img{
-    width: 20%;
-}
-
 /*header*/
 
 .btn-update{
@@ -52,12 +48,78 @@ footer{
     font-size: 13px;
 }
 
-/*sidebar-general*/
+/*sidebar*/
 
 #side-bar{
     height: 100%;
     width: 200px;
-    background-color: blue;
+    background-color: #000000;
+    padding: 15px;
+}
+
+#logo img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#side-options img{
+    width: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.download img{
+    width: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.download{
+    font-family: 13px;
+}
+
+#side-bar li, .download{
+    opacity: 0.5;
+    margin: 10px 0;
+}
+
+#playlist h4{
+    margin-top: 25px;
+}
+
+.create-playlist{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.btn-playlist{
+    color: black;   
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#side-footer{
+    margin-top: 330px;
+}
+
+.user-photo{
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+hr{
+    margin: 10px 0;
+    background-color: grey;
 }
 
 /*content-music*/
@@ -96,17 +158,6 @@ footer{
 
 .pop-artists img{
     border-radius: 50%;
-}
-
-/*playlist*/
-
-.create-playlist div{
-    display: inline-block;
-}
-
-.btn-playlist, .user-photo{
-    border: 2px solid orange;
-    background-color: grey;
 }
 
 /*footer*/
