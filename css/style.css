@@ -8,11 +8,12 @@
 
 body{
     font-family: "Open Sans";
+    color: white;   
 }
 
 header{
     height: 100px;
-    background-color: yellow;
+    background-color: #0C121B;
     position: sticky;
     top: 0;
 }
@@ -41,14 +42,14 @@ footer{
 
 /*header*/
 
-.btn.update{
-    border: 2px solid black;
+.btn-update{
+    border: 1px solid white;
     border-radius: 25px;
-    display: inline-block;
-    padding: 10px;
+    padding: 10px 50px;
     position: absolute;
     top: 25%;
     right: 10px;
+    font-size: 13px;
 }
 
 /*sidebar-general*/
@@ -169,5 +170,9 @@ ul li{
 }
 
 .text-right{
-    text-align: right   ;
+    text-align: right;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
 }
