@@ -23,6 +23,7 @@ header{
     height: calc(100vh - 80px);
     width: 200px;
     background-color: #000000;
+    overflow-y: auto;
 }
 
 main{
@@ -31,6 +32,7 @@ main{
 
 footer{
     height: 80px;
+    position: sticky;
 }
 
 #content-music{
@@ -77,9 +79,15 @@ ul.catalog-playlist li{
     font-size: 15px;
 }
 
-#logo img{
+#logo img:first-child{
     width: 150px;
     margin-bottom: 10px;
+}
+
+#logo img:last-child{
+    width: 25px;
+    margin-bottom: 10px;
+    display: none;
 }
 
 #side-options img{
@@ -144,7 +152,7 @@ hr{
     color: #75787D;
 }
 
-span{
+span.green-underline{
     text-decoration-line: underline;
     text-decoration-color: #ADFF2F;
     text-decoration-thickness: 2px;
@@ -397,5 +405,24 @@ ul li{
 
     .recent-music{
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 840px){
+    
+    h2, #music-catalog h5{
+        text-align: center;
+    }
+
+    .recent-music, .personal-mix, .pop-artists{
+        justify-content: center;
+    }
+
+    .current-song{
+        margin: 0;
+    }
+
+    footer{
+        height: 100px;
     }
 }
