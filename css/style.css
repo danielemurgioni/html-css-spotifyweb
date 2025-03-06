@@ -16,6 +16,7 @@ header{
     background-color: #0C121B;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #side-bar{
@@ -47,7 +48,7 @@ footer{
     padding: 10px 50px;
     position: absolute;
     top: 25%;
-    right: 10px;
+    right: 20px;
 }
 
 /*sidebar*/
@@ -69,7 +70,7 @@ footer{
 }
 
 #side-footer{
-    margin-top: 35px;
+    margin-top: 35px;   
 }
 
 ul.catalog-playlist li{
@@ -278,6 +279,70 @@ h6, .favourite i{
 
 .fa-volume-high{
     margin-right: 15px;
+}
+
+/*hovers*/
+
+#side-bar li:hover, .download:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn-update:hover, .control-buttons i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav li:hover, .favourite i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.play-button img:hover{
+    opacity: 0.5;
+}
+
+.play-button{
+    position: relative;
+}
+
+.play-button i{
+    display: none;
+}
+
+.play-button:hover i{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.current-song h6:hover{
+    color: white;
+    text-decoration: underline solid white;
+}
+
+.green-line{
+    height: 5px;
+    background-color: green;
+    opacity: 0;
+    position: relative;
+}
+
+.green-line:hover{
+    opacity: 1;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
 }
 
 /*utlity*/
