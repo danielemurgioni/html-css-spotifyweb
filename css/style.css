@@ -157,17 +157,10 @@ span{
     padding: 20px;
 }
 
-.recent-music{
-    justify-content: space-between;
-}
-
-.personal-mix, .pop-artists{
-    column-gap: 2%;
-}
-
 .card{
     width: 15%;
     text-align: center;
+    padding: 5px;
 }
 
 .pop-artists img{
@@ -384,4 +377,25 @@ ul li{
 
 .text-uppercase{
     text-transform: uppercase;
+}
+
+/*media-query*/
+
+@media screen and (max-width: 1060px){
+
+    ul.nav{
+        flex-wrap: wrap;
+    }
+
+    ul.nav li{
+        line-height: 30px;
+    }
+
+    .card{
+        width: 150px;
+    }
+
+    .recent-music{
+        flex-wrap: wrap;
+    }
 }
