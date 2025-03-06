@@ -426,3 +426,27 @@ ul li{
         height: 100px;
     }
 }
+
+@media screen and (max-width: 540px){
+    
+    .d-none{
+        display: none;
+    }
+
+    #side-bar{
+        width: 60px;
+    }
+
+    .personal-mix, .pop-artists{
+        flex-wrap: wrap;
+    }
+
+    #content-music {
+        width: calc(100% - 60px);
+    }
+
+    #music-catalog {
+        margin: 0 auto;
+        width: 250px;
+    }
+}
